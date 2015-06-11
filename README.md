@@ -7,8 +7,9 @@ change on remote
 reslove conflict: change on master
 solve conflict : change on trybranch
 
-# my try process
-# local                                          # remote
+## my try process
+```
+**local**                                         **remote**
                                                  create: master
 changed: master                                  
 new: trybranch2                                                                      
@@ -20,4 +21,4 @@ checkout: originbranch2 <= origin/trybranch2
 merge: master <= originbranch2                                                   
 delete:originbranch2
                                                  push: master
-
+```
