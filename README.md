@@ -21,4 +21,5 @@ checkout: originbranch2 <= origin/trybranch2
 merge: master <= originbranch2                                                   
 delete:originbranch2
                                                  push: master
+changed: master
 ```
