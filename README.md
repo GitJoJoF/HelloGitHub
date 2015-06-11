@@ -25,4 +25,9 @@ changed: master
 create: rebasebranch
 changed: rebasebranch
 rebase: rebasebranch => master
+changed: master 
+create: rebasebranch2
+checkout: rebasebranch2
+
+
 ```
