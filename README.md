@@ -22,4 +22,7 @@ merge: master <= originbranch2
 delete:originbranch2
                                                  push: master
 changed: master
+create: rebasebranch
+changed: rebasebranch
+rebase: rebasebranch => master
 ```
