@@ -28,6 +28,12 @@ rebase: rebasebranch => master
 changed: master 
 create: rebasebranch2
 checkout: rebasebranch2
-
-
+chagned: rebasebranch2
+rebase: rebasebranch2 => rebasebranch
+rebase: master => rebasebranch
+checkout: master
+delete: rebasebranch
+delete: rebasebranch2
+changed: master
+                                                push: master
 ```
